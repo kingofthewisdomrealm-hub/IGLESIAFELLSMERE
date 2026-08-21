@@ -1,0 +1,14 @@
+SITIO VERCEL — Iglesia Nueva Vida Fellsmere
+============================================
+1. Descomprime este zip.
+2. Copia el archivo "cover-bienvenida.mp4" (enviado por separado)
+   dentro de la carpeta media/ de este proyecto.
+3. Sube la carpeta completa a Vercel (vercel.com):
+   - Crea una cuenta gratis
+   - "Add New Project" → arrastra esta carpeta, o conéctala vía GitHub
+4. Listo: obtienes una URL https://…vercel.app con el sitio completo.
+
+Estructura:
+  index.html   ← el sitio completo (una sola página)
+  vercel.json  ← configuración
+  media/       ← todas las fotos y el video (local, sin depender de GoDaddy)

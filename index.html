@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="es-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preload" href="media/fonts/montserrat-var.woff2" as="font" type="font/woff2" crossorigin>
+<title>Iglesia Nueva Vida Fellsmere, FL | Iglesia Cristiana</title>
+<meta name="description" content="Iglesia cristiana hispana en Fellsmere, FL. Discipulado domingos 9:30 a.m., Adoración 10:30 a.m., Oración jueves 7:00 p.m. Ven y adora a Dios con nosotros.">
+<link rel="canonical" href="https://www.iglesianuevavidafellsmere.com/">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="icon" type="image/png" sizes="32x32" href="media/favicon-32.png">
+<link rel="icon" type="image/png" sizes="512x512" href="media/favicon.png">
+<link rel="apple-touch-icon" href="media/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Iglesia Nueva Vida Fellsmere">
+<meta property="og:title" content="Iglesia Nueva Vida Fellsmere, FL | Iglesia Cristiana">
+<meta property="og:description" content="Un lugar donde encontrarás familia, fe y un nuevo comienzo. Domingos 9:30 y 10:30 a.m. · Fellsmere, FL. ¡Te esperamos!">
+<meta property="og:url" content="https://www.iglesianuevavidafellsmere.com/">
+<meta property="og:image" content="https://www.iglesianuevavidafellsmere.com/media/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="es_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Iglesia Nueva Vida Fellsmere, FL | Iglesia Cristiana">
+<meta name="twitter:description" content="Un lugar donde encontrarás familia, fe y un nuevo comienzo. Domingos 9:30 y 10:30 a.m. · Fellsmere, FL.">
+<meta name="twitter:image" content="https://www.iglesianuevavidafellsmere.com/media/og-image.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Church",
+  "name": "Iglesia Nueva Vida Fellsmere",
+  "alternateName": "Nueva Vida Fellsmere",
+  "url": "https://www.iglesianuevavidafellsmere.com/",
+  "image": "https://www.iglesianuevavidafellsmere.com/media/og-image.jpg",
+  "logo": "https://www.iglesianuevavidafellsmere.com/media/logo.png",
+  "telephone": "+1-772-532-4242",
+  "email": "newlifenuevavidaag@gmail.com",
+  "sameAs": ["https://www.facebook.com/iglesiaNVF/"],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "10076 Esperanza Cir",
+    "addressLocality": "Fellsmere",
+    "addressRegion": "FL",
+    "postalCode": "32948",
+    "addressCountry": "US"
+  },
+  "openingHoursSpecification": [
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "09:30", "closes": "13:00"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens": "19:00", "closes": "21:00"}
+  ],
+  "memberOf": {"@type": "Organization", "name": "Asambleas de Dios"},
+  "inLanguage": "es"
+}
+</script>
+<style>
+  @font-face{font-family:'Montserrat';src:url('media/fonts/montserrat-var.woff2') format('woff2');font-weight:100 900;font-style:normal;font-display:swap}
+  :root{
+    --bg:#0d0f12; --bg2:#101319; --panel:#171b22; --panel2:#1b202a;
+    --teal:#2dd4bf; --teal-d:#14b8a6;
+    --ink:#e9ebee; --muted:#9aa3ad; --line:rgba(255,255,255,.08);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-variant-ligatures:common-ligatures;font-family:'Montserrat',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  h1,h2,h3,.display{font-family:'Archivo','Archivo Black','Montserrat',sans-serif;font-weight:900;letter-spacing:-.015em;line-height:1.08}
+  h3{font-weight:800;letter-spacing:-.008em;line-height:1.18}
+  a{color:inherit;text-decoration:none}
+  img{display:block;max-width:100%}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+  .btn{display:inline-block;padding:15px 30px;border-radius:999px;font-weight:700;font-size:.84rem;letter-spacing:.06em;text-transform:uppercase;transition:.18s;cursor:pointer;border:2px solid transparent;text-align:center}
+  .btn-primary{background:var(--teal);color:#04211d}
+  .btn-primary:hover{background:var(--teal-d);transform:translateY(-2px)}
+  .btn-ghost{border-color:rgba(255,255,255,.4);color:#fff;background:rgba(255,255,255,.04)}
+  .btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.12)}
+
+  /* NAV */
+  header{position:fixed;top:0;left:0;right:0;z-index:60;transition:.3s;border-bottom:1px solid transparent}
+  header.scrolled{background:rgba(11,13,16,.9);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+  nav{display:flex;align-items:center;justify-content:space-between;height:78px}
+  .brand img{height:46px;width:auto}
+  .navlinks{display:flex;gap:30px;align-items:center;font-size:.8rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+  .navlinks a{color:#d7dbe0;transition:.15s}
+  .navlinks a:hover{color:var(--teal)}
+  .nav-cta{padding:11px 24px;font-size:.74rem}
+  .burger{display:none;cursor:pointer;color:#fff;background:none;border:none;padding:6px;line-height:0}
+
+  /* HERO */
+  .hero{position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden}
+  .hero video,.hero .poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+  .hero .scrim{position:absolute;inset:0;z-index:1;background:
+     linear-gradient(180deg,rgba(9,12,15,.55) 0%,rgba(9,12,15,.45) 40%,rgba(9,12,15,.82) 100%),
+     radial-gradient(120% 80% at 30% 30%,rgba(45,212,191,.14),transparent 60%);}
+  .hero-inner{position:relative;z-index:2;padding:120px 0 70px}
+  .eyebrow{display:inline-flex;align-items:center;gap:12px;color:var(--teal);font-weight:700;letter-spacing:.18em;text-transform:uppercase;font-size:.72rem;margin-bottom:24px}
+  .eyebrow::before{content:"";width:38px;height:2px;background:var(--teal)}
+  .hero h1{font-size:clamp(2.8rem,6.6vw,5.4rem);max-width:15ch;margin-bottom:24px;text-shadow:0 2px 30px rgba(0,0,0,.4)}
+  .hero h1 .accent{color:var(--teal)}
+  .hero p.lead{font-size:1.2rem;color:#e2e6ea;max-width:46ch;margin-bottom:16px;text-shadow:0 1px 12px rgba(0,0,0,.5)}
+  .service-line{font-weight:700;color:#fff;font-size:1.02rem;margin-bottom:36px}
+  .service-line span{color:var(--teal)}
+  .hero-ctas{display:flex;gap:14px;flex-wrap:wrap}
+  .scroll-hint{position:absolute;bottom:26px;left:50%;transform:translateX(-50%);z-index:2;color:rgba(255,255,255,.6);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;animation:bob 2s infinite}
+  @keyframes bob{0%,100%{transform:translate(-50%,0)}50%{transform:translate(-50%,8px)}}
+
+  /* SERVICE BAND */
+  .band{background:var(--teal);color:#04211d}
+  .band .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px;padding:28px 24px}
+  .band .item{display:flex;flex-direction:column}
+  .band .item b{font-family:'Archivo',sans-serif;font-weight:800;font-size:1.06rem}
+  .band .item small{text-transform:uppercase;letter-spacing:.1em;font-weight:700;opacity:.72;font-size:.66rem}
+
+  section.pad{padding:96px 0}
+  .sec-head{text-align:center;max-width:660px;margin:0 auto 56px}
+  .sec-head .kicker{color:var(--blue);font-weight:800;letter-spacing:0;font-size:.95rem;display:block;margin-bottom:10px;display:block;margin-bottom:14px}
+  .sec-head h2{font-size:clamp(1.9rem,4vw,3rem);margin-bottom:16px}
+  .sec-head p{color:var(--muted)}
+
+  /* ABOUT split */
+  .about{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+  .about .imgwrap{position:relative;border-radius:20px;overflow:hidden;aspect-ratio:4/3;box-shadow:0 30px 60px rgba(0,0,0,.4)}
+  .about .imgwrap img{width:100%;height:100%;object-fit:cover}
+  .about .imgwrap .badge{position:absolute;left:20px;bottom:20px;background:rgba(13,15,18,.85);backdrop-filter:blur(6px);border:1px solid var(--line);border-radius:12px;padding:12px 18px;font-size:.8rem}
+  .about .imgwrap .badge b{color:var(--teal)}
+  .about h2{font-size:clamp(1.8rem,3.6vw,2.6rem);margin-bottom:18px}
+  .about p{color:var(--muted);margin-bottom:16px}
+
+  /* NEXT STEPS CARDS */
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:36px 30px;transition:.2s}
+  .card:hover{transform:translateY(-6px);border-color:rgba(45,212,191,.4)}
+  .card .ico{width:56px;height:56px;border-radius:14px;background:rgba(45,212,191,.12);display:grid;place-items:center;color:var(--teal);margin-bottom:20px}
+  .card h3{font-size:1.26rem;margin-bottom:10px}
+  .card p{color:var(--muted);font-size:.95rem;margin-bottom:18px}
+  .card a.more{color:var(--teal);font-weight:700;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em}
+
+  /* EVENTS */
+  .events-sec{background:var(--bg2)}
+  .events{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .event{background:var(--panel);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column}
+  .event .date{padding:20px 24px;display:flex;align-items:baseline;gap:10px;border-bottom:1px solid var(--line)}
+  .event .date .d{font-family:'Archivo',sans-serif;font-weight:800;font-size:2rem;color:var(--teal);font-variant-numeric:tabular-nums}
+  .event .date .m{text-transform:uppercase;letter-spacing:.1em;font-weight:700;font-size:.76rem;color:#fff}
+  .event .body{padding:22px 24px}
+  .event .body h3{font-size:1.14rem;margin-bottom:6px}
+  .event .body .time{color:var(--teal);font-weight:700;font-size:.82rem;margin-bottom:10px}
+  .event .body p{color:var(--muted);font-size:.9rem}
+
+  /* SERMON FEATURE */
+  .sermon{display:grid;grid-template-columns:1.4fr 1fr;gap:0;background:var(--panel);border:1px solid var(--line);border-radius:20px;overflow:hidden}
+  .sermon .media{position:relative;min-height:340px}
+  .sermon .media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .sermon .media .ov{position:absolute;inset:0;background:linear-gradient(90deg,rgba(13,15,18,.15),rgba(13,15,18,.65));display:grid;place-items:center}
+  .sermon .media .play{width:78px;height:78px;border-radius:50%;background:var(--teal);color:#04211d;display:grid;place-items:center;font-size:1.7rem;box-shadow:0 10px 30px rgba(45,212,191,.35);transition:.2s}
+  .sermon:hover .play{transform:scale(1.08)}
+  .sermon .txt{padding:44px 40px;display:flex;flex-direction:column;justify-content:center}
+  .sermon .txt h3{font-size:1.6rem;margin:8px 0 14px}
+  .sermon .txt p{color:var(--muted);margin-bottom:24px}
+
+  /* GALLERY */
+  .gal{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:150px;gap:12px}
+  .gal a{position:relative;overflow:hidden;border-radius:12px;display:block}
+  .gal a img{width:100%;height:100%;object-fit:cover;transition:.4s}
+  .gal a:hover img{transform:scale(1.07)}
+  .gal a.big{grid-column:span 2;grid-row:span 2}
+  .gal a.wide{grid-column:span 2}
+
+  /* GIVING */
+  .give{background:linear-gradient(135deg,#0e7c70 0%,#0a5d54 100%);border-radius:26px;padding:60px;display:grid;grid-template-columns:1.25fr 1fr;gap:40px;align-items:center;position:relative;overflow:hidden}
+  .give::after{content:"";position:absolute;right:-60px;top:-60px;width:260px;height:260px;border-radius:50%;background:rgba(255,255,255,.06)}
+  .give .kicker{color:#bff6ee}
+  .give h2{font-size:clamp(1.8rem,3.6vw,2.6rem);margin:10px 0 16px}
+  .give p{color:rgba(255,255,255,.88);margin-bottom:8px}
+  .zelle{background:rgba(0,0,0,.3);border-radius:16px;padding:30px;text-align:center;position:relative;z-index:1}
+  .zelle .z-label{text-transform:uppercase;letter-spacing:.12em;font-weight:700;font-size:.7rem;color:var(--teal);margin-bottom:12px}
+  .zelle .z-handle{font-family:'Archivo',sans-serif;font-weight:800;font-size:1.12rem;word-break:break-all;margin-bottom:8px;color:#fff}
+  .zelle small{color:rgba(255,255,255,.65);font-size:.78rem}
+
+  /* LOCATION + MAP */
+  .loc{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);border-radius:20px;overflow:hidden;background:var(--panel)}
+  .loc .info{padding:54px}
+  .loc .info h2{font-size:2rem;margin-bottom:24px}
+  .loc .row{display:flex;gap:14px;margin-bottom:22px;align-items:flex-start}
+  .loc .row .ic{color:var(--teal);font-size:1.2rem;margin-top:2px}
+  .loc .row b{display:block;margin-bottom:3px}
+  .loc .row span{color:var(--muted);font-size:.94rem}
+  .loc .map{min-height:420px}
+  .loc .map iframe{width:100%;height:100%;border:0;min-height:420px;filter:grayscale(.2) contrast(1.05)}
+
+  /* FOOTER */
+  footer{background:#08090b;border-top:1px solid var(--line);padding:64px 0 34px}
+  .foot-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px;margin-bottom:44px}
+  .foot-grid h4{font-size:.76rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin-bottom:16px}
+  .foot-grid a{display:block;color:#c7ccd2;font-size:.92rem;margin-bottom:10px;transition:.15s}
+  .foot-grid a:hover{color:var(--teal)}
+  .foot-brand img{height:52px;margin-bottom:16px}
+  .foot-brand p{color:var(--muted);font-size:.92rem;max-width:36ch}
+  .foot-give{color:var(--teal);font-weight:700;font-size:.9rem;word-break:break-all}
+  .foot-bottom{border-top:1px solid var(--line);padding-top:26px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;color:var(--muted);font-size:.82rem}
+
+  /* SOCIAL */
+  .soc{display:inline-grid;place-items:center;width:40px;height:40px;border-radius:999px;border:1px solid var(--line);color:#d7dbe0;transition:.18s;flex:none}
+  .soc:hover{border-color:var(--teal);color:var(--teal);background:rgba(45,212,191,.08)}
+  .nav-soc{margin-right:14px}
+  .nav-fb-m{display:none}
+  .foot-soc{display:flex;gap:10px;margin-top:14px}
+
+  /* CONECTATE */
+  .cx{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+  .cx .kicker{color:var(--blue);font-weight:800;letter-spacing:0;font-size:.95rem;display:block;margin-bottom:10px;display:block;margin-bottom:14px}
+  .cx h2{font-size:clamp(1.8rem,3.6vw,2.6rem);margin-bottom:16px}
+  .cx > div > p{color:var(--muted);max-width:46ch}
+  .cx-form{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:28px}
+  .cx-field{margin-bottom:16px}
+  .cx-field label{display:block;font-size:.7rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin-bottom:7px}
+  .cx-field input,.cx-field select,.cx-field textarea{width:100%;background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:13px 15px;color:var(--ink);font-family:inherit;font-size:.95rem;transition:.18s}
+  .cx-field input:focus,.cx-field select:focus,.cx-field textarea:focus{outline:none;border-color:var(--teal);background:var(--panel2)}
+  .cx-field textarea{min-height:110px;resize:vertical}
+  .cx-form .btn{width:100%;margin-top:6px}
+  .cx-note{display:none;font-size:.84rem;color:var(--muted);margin-top:16px;line-height:1.55;background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+  .cx-priv{font-size:.76rem;color:var(--muted);margin-top:12px;line-height:1.5}
+  .cx-alt{display:flex;flex-direction:column;gap:14px;margin-top:26px}
+  .cx-alt a{display:flex;align-items:center;gap:15px;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px 18px;transition:.18s}
+  .cx-alt a:hover{border-color:var(--teal);transform:translateY(-2px)}
+  .cx-ico{width:44px;height:44px;flex:none;border-radius:13px;display:grid;place-items:center;background:rgba(45,212,191,.12);color:var(--teal)}
+  .cx-alt b{display:block;font-size:.96rem;font-weight:700}
+  .cx-alt span{font-size:.82rem;color:var(--muted)}
+
+  @media(max-width:900px){
+    .navlinks{display:none}
+    .burger{display:block}
+    .nav-soc{display:none}
+    .nav-fb-m{display:flex;align-items:center;gap:10px}
+    .cx{grid-template-columns:1fr;gap:28px}
+    .about,.sermon,.give,.loc{grid-template-columns:1fr}
+    .cards,.events{grid-template-columns:1fr}
+    .give{padding:40px 30px}
+    .loc .info{padding:38px}
+    .sermon .media{min-height:260px}
+    .gal{grid-template-columns:repeat(2,1fr);grid-auto-rows:150px}
+    .gal a.big{grid-column:span 2;grid-row:span 1}
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto}
+    *,*::before,*::after{animation-duration:.01ms !important;transition-duration:.01ms !important}
+  }
+
+  /* ================= SISTEMA CLARO — HÍBRIDO (hero oscuro, cuerpo claro) ================= */
+  :root{
+    --navy:#00456B; --navy-d:#00304C;
+    --blue:#0089C4; --blue-d:#006A94; --blue-l:#5CC8EA;
+    --orange:#F58220; --orange-d:#D96C11;
+    --tint:#E6F6FD; --mist:#F2F6FA;
+    --bg:#FFFFFF; --bg2:#F2F6FA; --panel:#FFFFFF; --panel2:#F2F6FA;
+    --teal:#0089C4; --teal-d:#006A94;
+    --ink:#1D2A32; --muted:#5B6B76; --line:#DDE5EC;
+  }
+  body{background:var(--bg);color:var(--ink)}
+  h1,h2,h3,.display{font-family:'Montserrat',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-weight:800;letter-spacing:-.018em}
+  h3{font-weight:700;letter-spacing:-.01em}
+
+  /* Botones */
+  .btn{border-radius:8px;padding:14px 26px;font-size:1rem;font-weight:700;letter-spacing:0;text-transform:none;border-width:2px}
+  .btn-primary{background:var(--blue);color:#fff}
+  .btn-primary:hover{background:var(--blue-d)}
+  .nav-cta{padding:11px 22px;font-size:.95rem;background:var(--orange);color:#fff}
+  .nav-cta:hover{background:var(--orange-d)}
+  .hero-ctas a[href="#dar"]{background:var(--orange);border-color:var(--orange);color:#fff}
+  .hero-ctas a[href="#dar"]:hover{background:var(--orange-d);border-color:var(--orange-d)}
+
+  /* Encabezado */
+  header.scrolled{background:rgba(0,69,107,.96);border-bottom:1px solid rgba(255,255,255,.14)}
+  .navlinks a{color:#fff}
+  .navlinks a:hover{color:var(--blue-l)}
+
+  /* Hero — se mantiene oscuro */
+  .hero .scrim{background:linear-gradient(180deg,rgba(0,20,32,.55) 0%,rgba(0,20,32,.45) 40%,rgba(0,26,42,.86) 100%),radial-gradient(120% 80% at 30% 30%,rgba(0,137,196,.22),transparent 60%)}
+  .hero h1{color:#fff}
+  .hero h1 .accent{color:var(--blue-l)}
+  .eyebrow{color:var(--blue-l)}
+  .service-line span{color:var(--blue-l)}
+
+  /* Franja de servicios */
+  .band{background:var(--navy);color:#fff}
+  .band .item b{font-family:'Montserrat',sans-serif;font-weight:800}
+  .band .item small{opacity:.78}
+
+  /* Ritmo de secciones */
+  section.pad{padding:88px 0}
+  .events-sec{background:var(--mist)}
+  .sec-head .kicker{color:var(--blue);text-transform:none;letter-spacing:0;font-size:.95rem;font-weight:800;display:flex;align-items:center;justify-content:center;gap:12px}
+  .sec-head .kicker::before,.sec-head .kicker::after{content:"";width:26px;height:3px;border-radius:2px;background:currentColor;flex:0 0 auto}
+  .sec-head h2{color:var(--navy)}
+  .sec-head p{color:var(--muted)}
+
+  /* Nosotros — foto con bloque desfasado */
+  .about .imgwrap{box-shadow:-20px 24px 0 var(--tint),0 18px 44px rgba(0,53,77,.12)}
+  .about .imgwrap .badge{background:rgba(255,255,255,.94);color:var(--navy)}
+  .about .imgwrap .badge b{color:var(--navy)}
+  .about h2{color:var(--navy)}
+  .about p{color:var(--muted)}
+
+  /* Tarjetas */
+  .card{background:#fff;border:1px solid var(--line);border-radius:20px;box-shadow:0 10px 30px rgba(0,53,77,.07)}
+  .card:hover{border-color:var(--blue);box-shadow:0 16px 40px rgba(0,53,77,.13);transform:translateY(-3px)}
+  .card .ico{background:var(--tint);color:var(--blue)}
+  .card h3{color:var(--navy)}
+  .card p{color:var(--muted)}
+  .card a.more{color:var(--blue-d)}
+
+  /* Eventos */
+  .event{background:#fff;border:1px solid var(--line);border-radius:20px;box-shadow:0 10px 30px rgba(0,53,77,.07)}
+  .event .date{border-bottom:1px solid var(--line)}
+  .event .date .d{color:var(--blue)}
+  .event .date .m{color:var(--navy)}
+  .event .body h3{color:var(--navy)}
+  .event .body .time{color:var(--blue-d)}
+  .event .body p{color:var(--muted)}
+
+  /* Galería */
+  .gal a{border-radius:16px;overflow:hidden;box-shadow:0 8px 24px rgba(0,53,77,.08)}
+
+  /* Ofrenda — banda azul profundo */
+  .give{background:linear-gradient(135deg,#00456B 0%,#00304C 100%)}
+  .give{color:#fff}
+  .give .kicker{color:var(--blue-l)}
+  .give h2{color:#fff}
+  .zelle{background:rgba(0,0,0,.22)}
+  .zelle .z-label{color:var(--blue-l)}
+  .zelle .z-handle{color:#fff}
+
+  /* Ubicación */
+  .loc .info h2{color:var(--navy)}
+  .loc .row .ic{background:var(--tint);color:var(--blue)}
+  .loc .row b{color:var(--ink)}
+  .loc .row span{color:var(--muted)}
+  .loc .map{border-radius:20px;overflow:hidden;box-shadow:0 14px 40px rgba(0,53,77,.12)}
+
+  /* Conéctate */
+  .cx .kicker{color:var(--blue);text-transform:none;letter-spacing:0;font-size:.95rem;font-weight:800}
+  .cx h2{color:var(--navy)}
+  .cx > div > p{color:var(--muted)}
+  .cx-form{background:#fff;border:1px solid var(--line);border-radius:20px;box-shadow:0 10px 30px rgba(0,53,77,.07)}
+  .cx-field label{color:var(--muted)}
+  .cx-field input,.cx-field select,.cx-field textarea{background:#fff;border:1px solid var(--line);color:var(--ink)}
+  .cx-field input:focus,.cx-field select:focus,.cx-field textarea:focus{border-color:var(--blue);background:#fff;box-shadow:0 0 0 3px rgba(0,137,196,.15)}
+  .cx-alt a{background:#fff;border:1px solid var(--line);box-shadow:0 6px 18px rgba(0,53,77,.05)}
+  .cx-alt a:hover{border-color:var(--blue)}
+  .cx-ico{background:var(--tint);color:var(--blue)}
+  .cx-alt b{color:var(--navy)}
+  .cx-alt span{color:var(--muted)}
+  .cx-note{background:var(--mist);border:1px solid var(--line);color:var(--muted)}
+  .cx-priv{color:var(--muted)}
+
+  /* Pie */
+  footer{background:var(--navy);color:#fff;border-top:7px solid var(--blue)}
+  .foot-grid h4{color:#fff}
+  .foot-grid a{color:#C2D7E3}
+  .foot-grid a:hover{color:#fff}
+  .foot-brand p{color:#C2D7E3}
+  .foot-give{color:#fff}
+  .foot-bottom{color:#A8C4D4;border-top:1px solid rgba(255,255,255,.16)}
+  .soc{border-color:rgba(255,255,255,.30);color:#fff}
+  .soc:hover{border-color:var(--blue-l);color:var(--blue-l);background:rgba(255,255,255,.10)}
+
+  @media(max-width:640px){
+    section.pad{padding:64px 0}
+    .about .imgwrap{box-shadow:0 14px 34px rgba(0,53,77,.14)}
+  }
+
+  /* ===== Elementos firma ===== */
+  .about .imgwrap{overflow:visible}
+  .about .imgwrap img{border-radius:20px;width:100%;height:100%;object-fit:cover}
+  .about .imgwrap .badge{z-index:2}
+  .about .imgwrap .ibadge{position:absolute;right:-24px;top:28px;width:72px;height:72px;border-radius:19px;background:var(--blue);display:grid;place-items:center;color:#fff;box-shadow:0 10px 26px rgba(0,69,107,.30);z-index:3}
+
+  .btn-arrow{display:inline-flex;align-items:center;gap:14px;border:2px solid var(--blue);border-radius:999px;padding:5px 5px 5px 26px;font-weight:700;font-size:1rem;color:var(--blue-d);background:#fff;transition:.18s;line-height:1}
+  .btn-arrow .ar{width:40px;height:40px;border-radius:999px;background:var(--navy);display:grid;place-items:center;flex:0 0 auto;transition:.18s}
+  .btn-arrow:hover{background:var(--tint);border-color:var(--navy)}
+  .btn-arrow:hover .ar{background:var(--blue)}
+  .gal-cta{display:flex;justify-content:center;margin-top:42px}
+
+  .card a.more{display:inline-flex;align-items:center;gap:11px;text-transform:none;letter-spacing:0;font-size:.95rem;font-weight:700;color:var(--blue-d)}
+  .card a.more::after{content:"";width:30px;height:30px;border-radius:999px;flex:0 0 auto;background-color:var(--navy);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M7 17 17 7'/%3E%3Cpath d='M8 7h9v9'/%3E%3C/svg%3E");background-size:15px 15px;background-position:center;background-repeat:no-repeat;transition:.18s}
+  .card:hover a.more::after{background-color:var(--blue)}
+
+  @media(max-width:900px){
+    .about .imgwrap .ibadge{right:-14px;top:18px;width:58px;height:58px;border-radius:16px}
+    .about .imgwrap .ibadge svg{width:28px;height:28px}
+  }
+
+  /* ===== Encabezado blanco al bajar (CF) ===== */
+  .brand{display:flex;align-items:center}
+  .brand .lg-dark{display:none}
+  header.scrolled{background:rgba(255,255,255,.97);border-bottom:1px solid var(--line);box-shadow:0 2px 18px rgba(0,53,77,.07)}
+  header.scrolled .brand .lg-light{display:none}
+  header.scrolled .brand .lg-dark{display:block}
+  header.scrolled .navlinks a{color:var(--ink)}
+  header.scrolled .navlinks a:hover{color:var(--blue-d)}
+  header.scrolled .burger{color:var(--navy)}
+  header.scrolled .soc{border-color:var(--line);color:var(--navy)}
+  header.scrolled .soc:hover{border-color:var(--blue);color:var(--blue);background:var(--tint)}
+  @media(max-width:900px){
+    .navlinks a{color:var(--ink)}
+    .navlinks a:hover{color:var(--blue-d)}
+  }
+
+  /* ===== HERO CLARO — el encabezado pasa a blanco siempre ===== */
+  header{background:rgba(255,255,255,.97);border-bottom:1px solid var(--line)}
+  header.scrolled{background:rgba(255,255,255,.97);box-shadow:0 2px 18px rgba(0,53,77,.07)}
+  .brand .lg-light{display:none}
+  .brand .lg-dark{display:block}
+  .navlinks a{color:var(--ink)}
+  .navlinks a:hover{color:var(--blue-d)}
+  .burger{color:var(--navy)}
+  .soc{border-color:var(--line);color:var(--navy)}
+  .soc:hover{border-color:var(--blue);color:var(--blue);background:var(--tint)}
+
+  .hero{background:#fff}
+  .hero .scrim{background:
+    linear-gradient(90deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.95) 36%,rgba(255,255,255,.72) 56%,rgba(255,255,255,.32) 76%,rgba(255,255,255,.14) 100%),
+    linear-gradient(180deg,rgba(255,255,255,.55) 0%,rgba(255,255,255,0) 26%,rgba(255,255,255,0) 68%,rgba(255,255,255,.62) 100%)}
+  .hero h1{color:var(--navy);text-shadow:none}
+  .hero h1 .accent{color:var(--blue)}
+  .hero p.lead{color:#3A4B57;text-shadow:none}
+  .hero .eyebrow{color:var(--blue-d)}
+  .service-line{color:var(--ink);text-shadow:none}
+  .service-line span{color:var(--blue-d)}
+  .scroll-hint{color:var(--muted)}
+  .hero-ctas .btn-ghost:not([href="#dar"]){border-color:var(--blue);color:var(--blue-d);background:rgba(255,255,255,.86)}
+  .hero-ctas .btn-ghost:not([href="#dar"]):hover{border-color:var(--navy);background:#fff;color:var(--navy)}
+
+  @media(max-width:900px){
+    .hero .scrim{background:linear-gradient(180deg,rgba(255,255,255,.94) 0%,rgba(255,255,255,.88) 50%,rgba(255,255,255,.96) 100%)}
+  }
+
+  /* ===== Ajustes de celular ===== */
+  @media(max-width:900px){
+    .foot-grid{grid-template-columns:1fr 1fr;gap:30px}
+  }
+  @media(max-width:620px){
+    .foot-grid{grid-template-columns:1fr;gap:26px}
+    .foot-brand p{max-width:44ch}
+    .foot-give{overflow-wrap:anywhere}
+    .hero-ctas{flex-direction:column;align-items:stretch;gap:12px}
+    .hero-ctas .btn{width:100%}
+    .hero p.lead{max-width:34ch}
+  }
+
+  /* ===== Velo del hero más ligero: se ve más el video ===== */
+  .hero .scrim{background:
+    linear-gradient(90deg,rgba(255,255,255,.93) 0%,rgba(255,255,255,.80) 32%,rgba(255,255,255,.46) 54%,rgba(255,255,255,.14) 74%,rgba(255,255,255,0) 100%),
+    linear-gradient(180deg,rgba(255,255,255,.28) 0%,rgba(255,255,255,0) 24%,rgba(255,255,255,0) 70%,rgba(255,255,255,.58) 100%)}
+  .hero h1{text-shadow:0 1px 30px rgba(255,255,255,.98),0 1px 8px rgba(255,255,255,.9)}
+  .hero p.lead{text-shadow:0 1px 16px rgba(255,255,255,.98),0 1px 5px rgba(255,255,255,.9)}
+  .service-line{text-shadow:0 1px 16px rgba(255,255,255,.98),0 1px 5px rgba(255,255,255,.9)}
+  .hero .eyebrow{text-shadow:0 1px 14px rgba(255,255,255,.95)}
+  .scroll-hint{text-shadow:0 1px 12px rgba(255,255,255,.95)}
+
+  @media(max-width:900px){
+    .hero .scrim{background:linear-gradient(180deg,rgba(255,255,255,.86) 0%,rgba(255,255,255,.76) 45%,rgba(255,255,255,.92) 100%)}
+  }
+
+  /* Ajuste fino del velo: firme donde va el texto, abierto a la derecha */
+  .hero .scrim{background:
+    linear-gradient(90deg,rgba(255,255,255,.94) 0%,rgba(255,255,255,.85) 30%,rgba(255,255,255,.60) 50%,rgba(255,255,255,.22) 72%,rgba(255,255,255,0) 100%),
+    linear-gradient(180deg,rgba(255,255,255,.26) 0%,rgba(255,255,255,0) 24%,rgba(255,255,255,0) 70%,rgba(255,255,255,.58) 100%)}
+  .hero h1{text-shadow:0 1px 34px rgba(255,255,255,1),0 1px 10px rgba(255,255,255,.95),0 0 3px rgba(255,255,255,.9)}
+  .hero p.lead{text-shadow:0 1px 18px rgba(255,255,255,1),0 1px 6px rgba(255,255,255,.95)}
+  .service-line{text-shadow:0 1px 18px rgba(255,255,255,1),0 1px 6px rgba(255,255,255,.95)}
+  @media(max-width:900px){
+    .hero .scrim{background:linear-gradient(180deg,rgba(255,255,255,.88) 0%,rgba(255,255,255,.79) 45%,rgba(255,255,255,.93) 100%)}
+  }
+
+  /* Restos de Archivo: estas reglas caían a la tipografía del sistema */
+  .event .date .d{font-family:'Montserrat',sans-serif}
+  .zelle .z-handle{font-family:'Montserrat',sans-serif}
+
+  /* ===== Brillo en el video mismo, no velo encima ===== */
+  .hero video,.hero .poster{filter:brightness(1.42) contrast(.86) saturate(1.14)}
+  .hero .scrim{background:
+    linear-gradient(90deg,rgba(255,255,255,.86) 0%,rgba(255,255,255,.68) 30%,rgba(255,255,255,.36) 52%,rgba(255,255,255,.10) 74%,rgba(255,255,255,0) 100%),
+    linear-gradient(180deg,rgba(255,255,255,.20) 0%,rgba(255,255,255,0) 24%,rgba(255,255,255,0) 70%,rgba(255,255,255,.55) 100%)}
+  .hero p.lead{color:#233543;text-shadow:0 1px 18px rgba(255,255,255,1),0 1px 6px rgba(255,255,255,.98)}
+  @media(max-width:900px){
+    .hero .scrim{background:linear-gradient(180deg,rgba(255,255,255,.88) 0%,rgba(255,255,255,.84) 45%,rgba(255,255,255,.94) 100%)}
+  }
+</style>
+</head>
+<body>
+
+<header id="hdr">
+  <div class="wrap">
+    <nav>
+      <a class="brand" href="#top"><img class="lg-light" src="media/logo.png" alt="Iglesia Nueva Vida Fellsmere"><img class="lg-dark" src="media/logo-dark.png" alt="" aria-hidden="true"></a>
+      <div class="navlinks" id="navlinks">
+        <a href="#top">Inicio</a>
+        <a href="#nosotros">Conócenos</a>
+        <a href="#eventos">Eventos</a>
+        <a href="#galeria">Galería</a>
+        <a href="#horarios">Visítanos</a>
+        <a href="#contacto">Conéctate</a>
+        <a class="nav-fb-m" href="https://www.facebook.com/iglesiaNVF/" target="_blank" rel="noopener"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5.02 3.66 9.18 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.52 1.5-3.91 3.77-3.91 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.78-1.63 1.57v1.89h2.78l-.44 2.91h-2.34V22c4.78-.76 8.44-4.92 8.44-9.94Z"/></svg> Facebook</a>
+      </div>
+      <a class="soc nav-soc" href="https://www.facebook.com/iglesiaNVF/" target="_blank" rel="noopener" aria-label="Síguenos en Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5.02 3.66 9.18 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.52 1.5-3.91 3.77-3.91 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.78-1.63 1.57v1.89h2.78l-.44 2.91h-2.34V22c4.78-.76 8.44-4.92 8.44-9.94Z"/></svg></a>
+      <a href="#dar" class="btn btn-primary nav-cta">Dar</a>
+      <button class="burger" id="burger" aria-label="Menú"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h16"/></svg></button>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <video autoplay muted loop playsinline
+    poster="media/video-poster.jpg">
+    <source src="media/cover-bienvenida.mp4" type="video/mp4">
+  </video>
+  <div class="scrim"></div>
+  <div class="wrap hero-inner">
+    <span class="eyebrow">Iglesia cristiana en Fellsmere, FL</span>
+    <h1>Ven y adora a Dios <span class="accent">con nosotros</span></h1>
+    <p class="lead">Un lugar donde encontrarás familia, fe y un nuevo comienzo. Te esperamos este domingo.</p>
+    <p class="service-line">Domingos <span>9:30</span> Discipulado &nbsp;·&nbsp; <span>10:30 a.m.</span> Adoración &nbsp;·&nbsp; Fellsmere, FL</p>
+    <div class="hero-ctas">
+      <a href="#horarios" class="btn btn-primary">Planifica tu visita</a>
+      <a href="#nosotros" class="btn btn-ghost">Conócenos</a>
+      <a href="#dar" class="btn btn-ghost">Dar</a>
+    </div>
+  </div>
+  <div class="scroll-hint">Desliza ↓</div>
+</section>
+
+<!-- SERVICE BAND -->
+<div class="band">
+  <div class="wrap">
+    <div class="item"><small>Discipulado</small><b>Domingos 9:30 a.m.</b></div>
+    <div class="item"><small>Adoración</small><b>Domingos 10:30 a.m.</b></div>
+    <div class="item"><small>Oración</small><b>Jueves 7:00 p.m.</b></div>
+    <div class="item"><small>Dirección</small><b>10076 Esperanza Cir, Fellsmere</b></div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="pad" id="nosotros">
+  <div class="wrap about">
+    <div class="imgwrap">
+      <img loading="lazy" decoding="async" src="media/congregacion.jpeg" alt="Congregación de Iglesia Nueva Vida Fellsmere">
+      <div class="ibadge"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+      <div class="badge"><b>Familia en Cristo</b> · Fellsmere, FL</div>
+    </div>
+    <div>
+      <span class="kicker" style="color:var(--blue);font-weight:800;letter-spacing:0;font-size:.95rem;display:block;margin-bottom:10px">Bienvenido a casa</span>
+      <h2>Una iglesia donde perteneces</h2>
+      <p>Somos una iglesia cristiana hispana en Fellsmere, parte de las Asambleas de Dios. Creemos que la fe se vive en comunidad — por eso aquí encontrarás gente real, adoración sincera y una familia que camina contigo.</p>
+      <p>No importa dónde estés en tu camino con Dios, hay un lugar para ti a la mesa. Ven como eres.</p>
+      <a href="#horarios" class="btn btn-primary" style="margin-top:8px">Planifica tu visita</a>
+    </div>
+  </div>
+</section>
+
+<!-- NEXT STEPS -->
+<section class="pad" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">Da tu próximo paso</span>
+      <h2>No importa dónde estés, hay lugar para ti</h2>
+      <p>Ya sea tu primera vez o buscas dónde servir, aquí comienza tu camino con nosotros.</p>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <div class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/><path d="M4 17v2"/><path d="M5 18H3"/></svg></div>
+        <h3>Soy nuevo</h3>
+        <p>¿Es tu primera vez? Te contamos qué esperar y cómo llegar para que te sientas en casa.</p>
+        <a class="more" href="#horarios">Planifica tu visita</a>
+      </div>
+      <div class="card">
+        <div class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg></div>
+        <h3>Conoce nuestra historia</h3>
+        <p>Nuestra misión, nuestra familia y las fotos de todo lo que Dios hace entre nosotros.</p>
+        <a class="more" href="#nosotros">Conócenos</a>
+      </div>
+      <div class="card">
+        <div class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg></div>
+        <h3>Conéctate</h3>
+        <p>Servicio de jóvenes, oración y grupos. Encuentra tu lugar en la familia de la iglesia.</p>
+        <a class="more" href="#eventos">Ver eventos</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EVENTS -->
+<section class="pad events-sec" id="eventos">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">Próximos eventos</span>
+      <h2>Lo que viene en la iglesia</h2>
+    </div>
+    <div class="events">
+      <div class="event">
+        <div class="date"><span class="d">20</span><span class="m">Agosto</span></div>
+        <div class="body">
+          <h3>Noche de Cine: "Overcomer"</h3>
+          <div class="time">Jueves · 6:45 p.m.</div>
+          <p>Servicio de jóvenes con la película "I Am a Child of God — Overcomer". Alabanza, palabra y una noche para toda la familia. Trae a un amigo.</p>
+        </div>
+      </div>
+      <div class="event">
+        <div class="date"><span class="d">3er</span><span class="m">Jueves</span></div>
+        <div class="body">
+          <h3>Servicio de Jóvenes</h3>
+          <div class="time">Cada mes · 7:00 p.m.</div>
+          <p>Una noche para los jóvenes: alabanza, palabra y comunión. Trae a un amigo.</p>
+        </div>
+      </div>
+      <div class="event">
+        <div class="date"><span class="d">1er</span><span class="m">Domingo</span></div>
+        <div class="body">
+          <h3>Santa Cena</h3>
+          <div class="time">Cada mes · 10:30 a.m.</div>
+          <p>Nos reunimos a la mesa del Señor para recordar y celebrar juntos como familia.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CALENDAR -->
+<section class="pad" id="calendario">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">Calendario</span>
+      <h2>Nuestro mes de un vistazo</h2>
+      <p>Servicios semanales y eventos especiales, todo en un solo lugar.</p>
+    </div>
+    <style>
+      #invCal{--ccard:#171b22;--cpanel:#1b202a;--cline:rgba(255,255,255,.09);--cteal:#2dd4bf;--ctealD:#0e7c70;--cink:#e9ebee;--cmuted:#95a0ab;--cgold:#e9b949;color:var(--cink);max-width:980px;margin:0 auto}
+      #invCal *{box-sizing:border-box}
+      #invCal .ch{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;gap:12px;flex-wrap:wrap}
+      #invCal .ct{font-family:'Archivo','Montserrat',sans-serif;font-weight:800;font-size:clamp(1.25rem,3.4vw,1.85rem);text-transform:capitalize;margin:0}
+      #invCal .ct span{color:var(--cteal)}
+      #invCal .cnav{display:flex;gap:8px}
+      #invCal .cnav button{width:38px;height:38px;border-radius:10px;border:1px solid var(--cline);background:var(--cpanel);color:var(--cink);font-size:1.1rem;cursor:pointer;transition:.15s;line-height:1}
+      #invCal .cnav button:hover{border-color:var(--cteal);color:var(--cteal)}
+      #invCal .cnav .tb{width:auto;padding:0 15px;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em}
+      #invCal .dow{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;margin-bottom:6px}
+      #invCal .dow div{text-align:center;font-size:.66rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--cmuted);padding:5px 0}
+      #invCal .cgrid{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+      #invCal .cell{background:var(--ccard);border:1px solid var(--cline);border-radius:10px;min-height:100px;padding:7px;display:flex;flex-direction:column;overflow:hidden}
+      #invCal .cell.empty{background:transparent;border:0}
+      #invCal .num{font-size:.8rem;font-weight:700;font-variant-numeric:tabular-nums;color:var(--cmuted);margin-bottom:5px;width:23px;height:23px;display:grid;place-items:center;border-radius:50%}
+      #invCal .cell.sun .num{color:#fff}
+      #invCal .cell.today .num{background:var(--cteal);color:#04211d}
+      #invCal .chip{font-size:.6rem;line-height:1.22;padding:3px 6px;border-radius:6px;margin-bottom:4px;font-weight:600}
+      #invCal .chip b{display:block;font-weight:700}
+      #invCal .svc{background:rgba(45,212,191,.16);color:#bff6ee;border-left:2px solid var(--cteal)}
+      #invCal .pray{background:rgba(255,255,255,.07);color:#cfd6dd;border-left:2px solid #6b7785}
+      #invCal .youth{background:rgba(139,109,255,.18);color:#d7ccff;border-left:2px solid #8b6dff}
+      #invCal .comm{background:rgba(233,185,73,.15);color:#f2d79a;border-left:2px solid var(--cgold)}
+      #invCal .special{background:var(--ctealD);color:#fff;border-left:2px solid var(--cteal);font-weight:700}
+      #invCal .lg{display:flex;flex-wrap:wrap;gap:9px 18px;margin-top:16px;padding-top:14px;border-top:1px solid var(--cline)}
+      #invCal .lg .i{display:flex;align-items:center;gap:7px;font-size:.72rem;color:var(--cmuted)}
+      #invCal .lg .d{width:12px;height:12px;border-radius:3px;flex:0 0 auto}
+      #invCal .d.svc{background:var(--cteal)}#invCal .d.pray{background:#6b7785}#invCal .d.youth{background:#8b6dff}#invCal .d.comm{background:var(--cgold)}#invCal .d.special{background:var(--ctealD)}
+      @media(max-width:640px){#invCal .cell{min-height:76px;padding:4px}#invCal .chip{font-size:.53rem;padding:2px 4px}#invCal .num{font-size:.7rem}#invCal .dow div{font-size:.55rem}}
+    
+      /* ===== Calendario en claro ===== */
+      #invCal{--ccard:#FFFFFF;--cpanel:#F2F6FA;--cline:#DDE5EC;--cteal:#0089C4;--ctealD:#00456B;--cink:#1D2A32;--cmuted:#5B6B76;--cgold:#C77A16}
+      #invCal .ct{font-family:'Montserrat',sans-serif}
+      #invCal .cell{box-shadow:0 4px 14px rgba(0,53,77,.05)}
+      #invCal .cell.sun .num{color:#00456B}
+      #invCal .cell.today .num{background:#0089C4;color:#fff}
+      #invCal .svc{background:#E6F6FD;color:#00456B;border-left:2px solid #0089C4}
+      #invCal .pray{background:#F2F6FA;color:#3E4E59;border-left:2px solid #8FA3B0}
+      #invCal .youth{background:#EEEAFE;color:#463596;border-left:2px solid #7B61FF}
+      #invCal .comm{background:#FEF0E2;color:#8A4A08;border-left:2px solid #F58220}
+      #invCal .special{background:#00456B;color:#fff;border-left:2px solid #0089C4}
+      #invCal .lg .d.svc{background:#0089C4}
+      #invCal .lg .d.pray{background:#8FA3B0}
+      #invCal .lg .d.youth{background:#7B61FF}
+      #invCal .lg .d.comm{background:#F58220}
+      #invCal .lg .d.special{background:#00456B}
+</style>
+    <div id="invCal">
+      <div class="ch">
+        <h3 class="ct" id="ic_title">—</h3>
+        <div class="cnav">
+          <button id="ic_prev" aria-label="Mes anterior">&#8249;</button>
+          <button class="tb" id="ic_today">Hoy</button>
+          <button id="ic_next" aria-label="Mes siguiente">&#8250;</button>
+        </div>
+      </div>
+      <div class="dow"><div>Dom</div><div>Lun</div><div>Mar</div><div>Mié</div><div>Jue</div><div>Vie</div><div>Sáb</div></div>
+      <div class="cgrid" id="ic_grid"></div>
+      <div class="lg">
+        <div class="i"><span class="d svc"></span> Domingos · Discipulado 9:30 a.m. · Adoración 10:30 a.m.</div>
+        <div class="i"><span class="d pray"></span> Jueves · Oración y Clases de Música 7:00 p.m.</div>
+        <div class="i"><span class="d comm"></span> Santa Cena · 1er domingo</div>
+        <div class="i"><span class="d youth"></span> Servicio de Jóvenes · 3er jueves</div>
+        <div class="i"><span class="d special"></span> Evento especial</div>
+      </div>
+    </div>
+    <script>
+    (function(){
+      var SPECIAL={ '2026-08-20':{title:'Noche de Cine: Overcomer',sub:'Servicio de jóvenes · 6:45 p.m.'} };
+      var MO=['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
+      var now=new Date(), view=new Date(now.getFullYear(),now.getMonth(),1);
+      function key(y,m,d){return y+'-'+String(m+1).padStart(2,'0')+'-'+String(d).padStart(2,'0');}
+      function render(){
+        var y=view.getFullYear(),m=view.getMonth();
+        document.getElementById('ic_title').innerHTML=MO[m]+' <span>'+y+'</span>';
+        var first=new Date(y,m,1).getDay(), days=new Date(y,m+1,0).getDate();
+        var g=document.getElementById('ic_grid'); g.innerHTML='';
+        for(var i=0;i<first;i++){var e=document.createElement('div');e.className='cell empty';g.appendChild(e);}
+        var sc=0,tc=0;
+        for(var d=1;d<=days;d++){
+          var dow=new Date(y,m,d).getDay(); if(dow===0)sc++; if(dow===4)tc++;
+          var c=document.createElement('div'); c.className='cell'+(dow===0?' sun':'');
+          if(y===now.getFullYear()&&m===now.getMonth()&&d===now.getDate())c.className+=' today';
+          var h='<div class="num">'+d+'</div>';
+          if(dow===0){h+='<div class="chip svc"><b>Servicios</b>9:30 · 10:30 a.m.</div>';if(sc===1)h+='<div class="chip comm">Santa Cena</div>';}
+          if(dow===4){h+='<div class="chip pray"><b>Oración</b>7:00 p.m.</div>';if(tc===3&&!SPECIAL[key(y,m,d)])h+='<div class="chip youth">Jóvenes 7 p.m.</div>';}
+          var sp=SPECIAL[key(y,m,d)]; if(sp){h+='<div class="chip special"><b>'+sp.title+'</b>'+(sp.sub||'')+'</div>';}
+          c.innerHTML=h; g.appendChild(c);
+        }
+      }
+      document.getElementById('ic_prev').onclick=function(){view.setMonth(view.getMonth()-1);render();};
+      document.getElementById('ic_next').onclick=function(){view.setMonth(view.getMonth()+1);render();};
+      document.getElementById('ic_today').onclick=function(){view=new Date(now.getFullYear(),now.getMonth(),1);render();};
+      render();
+    })();
+    </script>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="pad" id="galeria" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">Galería</span>
+      <h2>Momentos de nuestra familia</h2>
+    </div>
+    <div class="gal">
+      <a class="big" href="#galeria"><img loading="lazy" decoding="async" src="media/foto-02.jpeg" alt="Familia de la iglesia"></a>
+      <a href="#galeria"><img loading="lazy" decoding="async" src="media/foto-05.jpeg" alt="Celebración"></a>
+      <a href="#galeria"><img loading="lazy" decoding="async" src="media/foto-06.jpeg" alt="Evento de la iglesia"></a>
+      <a class="wide" href="#galeria"><img loading="lazy" decoding="async" src="media/foto-07.jpeg" alt="Comunidad"></a>
+      <a href="#galeria"><img loading="lazy" decoding="async" src="media/foto-09.jpeg" alt="Servicio"></a>
+      <a href="#galeria"><img loading="lazy" decoding="async" src="media/edificio-iglesia.jpg" alt="Edificio de la iglesia"></a>
+      <a class="wide" href="#galeria"><img loading="lazy" decoding="async" src="media/congregacion.jpeg" alt="Congregación"></a>
+    </div>
+    <div class="gal-cta">
+      <a class="btn-arrow" href="https://www.facebook.com/iglesiaNVF/" target="_blank" rel="noopener"><span>Ver más fotos en Facebook</span><span class="ar"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></span></a>
+    </div>
+  </div>
+</section>
+
+<!-- GIVING -->
+<section class="pad events-sec" id="dar">
+  <div class="wrap">
+    <div class="give">
+      <div>
+        <span class="kicker">Ofrenda &amp; diezmos</span>
+        <h2>Tu generosidad transforma vidas</h2>
+        <p>Cada ofrenda sostiene el ministerio, alcanza a nuestra comunidad de Fellsmere y lleva esperanza a más familias.</p>
+        <p style="margin-top:10px">Dar es fácil y seguro a través de Zelle.</p>
+      </div>
+      <div class="zelle">
+        <div class="z-label">Da con Zelle</div>
+        <div class="z-handle">newlifenuevavidaag@gmail.com</div>
+        <small>Iglesia Nueva Vida Fellsmere</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LOCATION + MAP -->
+<section class="pad" id="horarios" style="padding-top:0">
+  <div class="wrap">
+    <div class="loc">
+      <div class="info">
+        <span class="kicker" style="color:var(--blue);font-weight:800;letter-spacing:0;font-size:.95rem;display:block;margin-bottom:10px">Visítanos</span>
+        <h2 style="margin-top:12px">Te esperamos este domingo</h2>
+        <div class="row"><span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg></span><div><b>Dirección</b><span>10076 Esperanza Cir, Fellsmere, FL 32948</span></div></div>
+        <div class="row"><span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span><div><b>Horarios</b><span>Domingos — 9:30 a.m. Discipulado · 10:30 a.m. Adoración<br>Jueves — 7:00 p.m. Oración</span></div></div>
+        <div class="row"><span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span><div><b>Teléfono</b><span><a href="tel:+17725324242" style="color:inherit;text-decoration:none">(772) 532-4242</a></span></div></div>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=10076+Esperanza+Cir,+Fellsmere,+FL+32948" target="_blank" rel="noopener" class="btn btn-primary" style="margin-top:8px">Cómo llegar</a>
+      </div>
+      <div class="map">
+        <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=10076%20Esperanza%20Cir,%20Fellsmere,%20FL%2032948&z=15&output=embed"
+          title="Mapa — Iglesia Nueva Vida Fellsmere"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+
+<!-- CONECTATE -->
+<section class="pad events-sec" id="contacto">
+  <div class="wrap">
+    <div class="cx">
+      <div>
+        <span class="kicker">Conéctate</span>
+        <h2>Hablemos. Estamos para ti.</h2>
+        <p>¿Vienes por primera vez? ¿Necesitas oración? ¿Quieres bautizarte o servir? Escríbenos y alguien del equipo se comunicará contigo.</p>
+        <div class="cx-alt">
+          <a href="tel:+17725324242">
+            <span class="cx-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg></span>
+            <span><b>Llámanos</b><span>(772) 532-4242</span></span>
+          </a>
+          <a href="mailto:newlifenuevavidaag@gmail.com">
+            <span class="cx-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></span>
+            <span><b>Escríbenos</b><span>newlifenuevavidaag@gmail.com</span></span>
+          </a>
+          <a href="https://www.facebook.com/iglesiaNVF/" target="_blank" rel="noopener">
+            <span class="cx-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5.02 3.66 9.18 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.52 1.5-3.91 3.77-3.91 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.78-1.63 1.57v1.89h2.78l-.44 2.91h-2.34V22c4.78-.76 8.44-4.92 8.44-9.94Z"/></svg></span>
+            <span><b>Síguenos en Facebook</b><span>Fotos, avisos y lo que pasa cada semana</span></span>
+          </a>
+        </div>
+      </div>
+
+      <form class="cx-form" id="cxForm" novalidate>
+        <div class="cx-field">
+          <label for="cxNombre">Nombre y apellido</label>
+          <input id="cxNombre" name="nombre" type="text" required autocomplete="name" placeholder="Tu nombre">
+        </div>
+        <div class="cx-field">
+          <label for="cxTel">Teléfono o WhatsApp</label>
+          <input id="cxTel" name="telefono" type="tel" required autocomplete="tel" placeholder="(772) 000-0000">
+        </div>
+        <div class="cx-field">
+          <label for="cxCorreo">Correo electrónico <span style="text-transform:none;letter-spacing:0;font-weight:500">(opcional)</span></label>
+          <input id="cxCorreo" name="correo" type="email" autocomplete="email" placeholder="tucorreo@ejemplo.com">
+        </div>
+        <div class="cx-field">
+          <label for="cxMotivo">¿En qué podemos ayudarte?</label>
+          <select id="cxMotivo" name="motivo">
+            <option>Quiero visitar por primera vez</option>
+            <option>Quiero recibir oración</option>
+            <option>Quiero bautizarme</option>
+            <option>Quiero servir en un ministerio</option>
+            <option>Quiero información sobre el discipulado</option>
+            <option>Necesito hablar con el pastor</option>
+            <option>Otro</option>
+          </select>
+        </div>
+        <div class="cx-field">
+          <label for="cxMensaje">Cuéntanos un poco más</label>
+          <textarea id="cxMensaje" name="mensaje" placeholder="Escribe aquí tu mensaje o petición de oración..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+        <p class="cx-priv">Tu información es confidencial y solo la usa el equipo pastoral de la iglesia.</p>
+        <div class="cx-note" id="cxNote">Se abrió tu aplicación de correo con el mensaje listo — solo presiona <b>Enviar</b>.<br>¿No se abrió? Llámanos al <a href="tel:+17725324242" style="color:var(--teal)">(772) 532-4242</a> o escríbenos a <a href="mailto:newlifenuevavidaag@gmail.com" style="color:var(--teal)">newlifenuevavidaag@gmail.com</a>.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <img src="media/logo.png" alt="Iglesia Nueva Vida Fellsmere">
+        <p>Una iglesia cristiana hispana donde encontrarás familia, fe y un nuevo comienzo en Cristo. Fellsmere, FL · Asambleas de Dios.</p>
+        <div class="foot-soc">
+          <a class="soc" href="https://www.facebook.com/iglesiaNVF/" target="_blank" rel="noopener" aria-label="Síguenos en Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5.02 3.66 9.18 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.52 1.5-3.91 3.77-3.91 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.78-1.63 1.57v1.89h2.78l-.44 2.91h-2.34V22c4.78-.76 8.44-4.92 8.44-9.94Z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Explora</h4>
+        <a href="#top">Inicio</a>
+        <a href="#nosotros">Conócenos</a>
+        <a href="#calendario">Calendario</a>
+        <a href="#eventos">Eventos</a>
+        <a href="#galeria">Galería</a>
+        <a href="#horarios">Visítanos</a>
+        <a href="#contacto">Conéctate</a>
+      </div>
+      <div>
+        <h4>Dar / Ofrendar</h4>
+        <p style="color:#C2D7E3;font-size:.86rem;margin-bottom:8px">Diezmos y ofrendas por Zelle:</p>
+        <a class="foot-give" href="#dar">newlifenuevavidaag@gmail.com</a>
+        <h4 style="margin-top:22px">Afiliación</h4>
+        <a href="https://ag.org/es-ES/" target="_blank" rel="noopener">Asambleas de Dios</a>
+        <a href="https://fmdag.org/" target="_blank" rel="noopener">Distrito Multicultural de Florida</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Iglesia Nueva Vida Fellsmere · Fellsmere, FL</span>
+      <span><a href="tel:+17725324242" style="color:inherit;text-decoration:none">(772) 532-4242</a> · Asambleas de Dios</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var hdr=document.getElementById('hdr');
+  function onScroll(){ if(window.scrollY>40) hdr.classList.add('scrolled'); else hdr.classList.remove('scrolled'); }
+  window.addEventListener('scroll',onScroll); onScroll();
+  var burgerBtn=document.getElementById('burger'), navEl=document.getElementById('navlinks');
+  function closeMenu(){ navEl.style.display=''; burgerBtn.setAttribute('aria-expanded','false'); }
+  burgerBtn.setAttribute('aria-expanded','false');
+  burgerBtn.addEventListener('click',function(){
+    var open=navEl.style.display==='flex';
+    if(open){closeMenu();return;}
+    navEl.style.display='flex';navEl.style.position='absolute';navEl.style.top='78px';navEl.style.left='0';navEl.style.right='0';
+    navEl.style.flexDirection='column';navEl.style.background='rgba(255,255,255,.98)';navEl.style.padding='22px 24px';navEl.style.gap='18px';navEl.style.borderBottom='1px solid #DDE5EC';navEl.style.boxShadow='0 14px 30px rgba(0,53,77,.14)';navEl.style.zIndex='60';
+    burgerBtn.setAttribute('aria-expanded','true');
+  });
+  navEl.querySelectorAll('a').forEach(function(a){ a.addEventListener('click',closeMenu); });
+</script>
+<script>
+(function(){
+  var v=document.querySelector('.hero video');
+  if(!v) return;
+  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){ v.removeAttribute('autoplay'); v.pause(); return; }
+  v.muted=true; v.loop=true; v.setAttribute('loop',''); v.setAttribute('muted','');
+  function go(){ var p=v.play(); if(p&&p.catch) p.catch(function(){}); }
+  go();
+  v.addEventListener('pause',function(){ if(!document.hidden) go(); });
+  v.addEventListener('ended',go); // belt-and-suspenders: loop should prevent this
+  document.addEventListener('visibilitychange',function(){ if(!document.hidden) go(); });
+  ['click','touchstart','scroll'].forEach(function(e){
+    document.addEventListener(e,go,{once:true,passive:true});
+  });
+})();
+</script>
+<script>
+(function(){
+  var f = document.getElementById('cxForm');
+  if(!f) return;
+  f.addEventListener('submit', function(e){
+    e.preventDefault();
+    var g = function(n){ var el = f.elements[n]; return el ? String(el.value).trim() : ''; };
+    var nombre = g('nombre'), tel = g('telefono'), correo = g('correo'), motivo = g('motivo'), msg = g('mensaje');
+    if(!nombre || !tel){ alert('Por favor escribe tu nombre y un teléfono para poder contactarte.'); return; }
+    var asunto = 'Sitio web — ' + motivo + ' — ' + nombre;
+    var cuerpo = 'Nombre: ' + nombre + '\n'
+      + 'Teléfono / WhatsApp: ' + tel + '\n'
+      + 'Correo: ' + (correo || '(no indicado)') + '\n'
+      + 'Motivo: ' + motivo + '\n\n'
+      + 'Mensaje:\n' + (msg || '(sin mensaje)') + '\n\n'
+      + '— Enviado desde iglesianuevavidafellsmere.com';
+    var note = document.getElementById('cxNote');
+    if(note) note.style.display = 'block';
+    window.location.href = 'mailto:newlifenuevavidaag@gmail.com'
+      + '?subject=' + encodeURIComponent(asunto)
+      + '&body=' + encodeURIComponent(cuerpo);
+  });
+})();
+</script>
+</body>
+</html>
